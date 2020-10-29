@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marko Macura</title>
+  </head>
+
+  <body>
+    <p>
+      Kontakt:
+      <br>
+      Mejl: marko.macura@tehnika.edu.rs
+      <br>
+      Telefon: 060 123 45 67
+    </p>
+    <br>
+    <p>Predmeti</p>
+
+    <table style="padding: 5px 5px 5px 15px; border: 1px solid black;
+    border-collapse: collapse; border-spacing: 5px; width: 70%;
+    margin: 5px 5px 5px 5px; cell-space: 5px">
+      <thead>
+        <th style="padding: 5px 5px 15px 5px;">Predmet</th>
+        <th style="padding: 5px 5px 15px 5px;">Nastavnik</th>
+      </thead>
+      <tr>
+        <td style="padding: 5px;">Matematika</td>
+        <td style="padding: 5px;">Nada Popović</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px;">Srpski jezik i književnost</td>
+        <td style="padding: 5px;">Vesna Mićić</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px;">Programiranje</td>
+        <td style="padding: 5px;">Milijana Petrović</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px;">Softverski alati</td>
+        <td style="padding: 5px;">Jasmina Lesendrić</td>
+      </tr>
+      <tr>
+        <td style="padding: 5px;">Elektronika</td>
+        <td style="padding: 5px;">Mirko Milijanović</td>
+      </tr>
+    </table>
+
+    <br><br>
+    <!-- Nove promene su ovde-->
+    <p>
+      Forma
+    </p>
+    <fieldset>
+      <legend align="center">Pošaljite poruku</legend>
+
+      <form action="mailto:marko.macura@tehnika.edu.rs" method="post">
+        <label id="getName">Unesi ime </label>
+        <input type="text" name="clientName" id="inputName"/>
+        <br><br>
+
+        <label id=getEMail>Unesi e-poštu </label>
+        <input type="email" name="clientEMail" id="inputEMail">
+        <br><br>
+
+        <label id="getGrade">Da li je članak bio dobar?</label>
+        <input type="radio" name="ocena" value="0">Ne</input>
+        <input type="radio" name="ocena" value="1">Da</input>
+        <br><br>
+
+        <label id="getComm">Komentar</label>
+        <textarea name="clientComm" id="inputComm"></textarea>
+        <br><br>
+
+        <button type="submit">Pošalji</button>
+        <button type="reset">Resetuj</button>
+      </form>
+
+    </fieldset>
+
+<p><a href="index.html">Nazad na glavnu</a></p>
+  </body></html>
